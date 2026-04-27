@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* CU Red Theme */
+.cu-red {
+  background-color: #b11226;
+  color: white;
+}
+
+.cu-red-btn {
+  background-color: #b11226;
+  color: white;
+  border: none;
+}
+
+.cu-red-btn:hover {
+  background-color: #8e0f1f;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(
+      rgba(177, 18, 38, 0.9),
+      rgba(177, 18, 38, 0.9)
+    ),
+    url("https://images.unsplash.com/photo-1523580846011-d3a5bc25702b");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+/* Light mode */
+body.light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Dark mode */
+body.dark {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+/* Dark cards & forms */
+body.dark .card,
+body.dark .bg-light,
+body.dark .border {
+  background-color: #1e1e1e !important;
+  color: white;
+}
+
+/* Navbar stays CU red */
+.cu-red {
+  background-color: #b11226;
+  color: white;
+}
+/* Footer always at bottom */
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-main {
+  flex: 1;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Light mode */
+body.light {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Dark mode */
+body.dark {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+/* Dark cards & forms */
+body.dark .card,
+body.dark .bg-light,
+body.dark .border,
+body.dark .table {
+  background-color: #1e1e1e !important;
+  color: white !important;
+}
+
+/* CU Red Theme */
+.cu-red {
+  background-color: #b11226;
+  color: white;
+}
+
+.cu-red-btn {
+  background-color: #b11226;
+  color: white;
+  border: none;
+}
+.cu-red-btn:hover {
+  background-color: #8e0f1f;
+}
+
+/* Register button should be BLUE */
+.register-blue-btn {
+  background-color: #333dcf;
+  color: white;
+  border: none;
+}
+.register-blue-btn:hover {
+  background-color: #2c41cd;
+  color: white;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(rgba(177, 18, 38, 0.9), rgba(177, 18, 38, 0.9)),
+    url("https://images.unsplash.com/photo-1523580846011-d3a5bc25702b");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+/* Footer always at bottom */
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.app-main {
+  flex: 1;
+}
+
+/* Events big boxes */
+.event-box {
+  border-radius: 14px;
+  padding: 24px;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
+  background: white;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.event-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.12);
+}
+body.dark .event-box {
+  background: #1e1e1e;
+  border-color: rgba(255, 255, 255, 0.08);
+}
+.event-tag {
+  display: inline-block;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  background: rgba(13, 110, 253, 0.12);
+  color: #0d6efd;
+  font-weight: 600;
+}

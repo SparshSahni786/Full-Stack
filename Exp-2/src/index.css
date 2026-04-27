@@ -1,0 +1,109 @@
+/* ===============================
+   Global Reset & Base Styling
+   =============================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===============================
+   Body & Typography
+   =============================== */
+body {
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+/* ===============================
+   Navbar
+   =============================== */
+.navbar {
+  padding: 0.75rem 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+  letter-spacing: 0.5px;
+}
+
+/* ===============================
+   Hero Section
+   =============================== */
+.bg-dark {
+  background: linear-gradient(135deg, #fd0d0d, #d70b0b) !important;
+}
+
+.bg-dark h1 {
+  color: #ffffff;
+}
+
+.bg-dark p {
+  color: #e0e0e0;
+}
+
+/* ===============================
+   Buttons (Bootstrap + MUI)
+   =============================== */
+button,
+.MuiButton-root {
+  border-radius: 10px !important;
+  text-transform: none !important;
+  font-weight: 500;
+}
+
+/* ===============================
+   Cards (Material UI)
+   =============================== */
+.MuiCard-root {
+  border-radius: 14px !important;
+}
+
+/* ===============================
+   Footer
+   =============================== */
+footer {
+  font-size: 14px;
+  background-color: #212529;
+  color: #ffffff;
+}
+
+/* ===============================
+   Responsive (Mobile First)
+   =============================== */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* ===============================
+   Extra Mobile UX Improvements
+   =============================== */
+@media (max-width: 576px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  button,
+  .MuiButton-root {
+    width: 100%;
+  }
+}
